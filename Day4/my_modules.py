@@ -1,0 +1,1 @@
+my_favorites_number = 3.354
