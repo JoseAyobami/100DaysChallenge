@@ -35,35 +35,35 @@ scissors = '''
 
 '''
 
+
 game_image = [rock, paper, scissors]
 
-
-player_choice = int(input("What do you choose? Pick 0 for rock, 1 for paper or 2 for scissors.\n"))
+player_choice = int(input("Choose what you want? Pick 0 for rock, 1 for  paper or 2 for scissors\n"))
 if player_choice >= 0 and player_choice <= 2:
-    print(game_image[player_choice])
+    print(game_image[player_choice]) 
 
 computer_choice = random.randint(0, 2)
-print(f"Computer choose {computer_choice} ")
+print(f"Computer choose: {computer_choice}")
 print(game_image[computer_choice])
 
-if player_choice >= 3 or player_choice < 0:
-    print("You typed an invalid number. You Lose!")
+
+if player_choice >=3 or player_choice < 0:
+    print("You typed an invalid number. You lose")
 elif player_choice == 0 and computer_choice == 2:
-    print("You Win!")  
+    print("You Win")       
 elif computer_choice == 0 and player_choice == 2:
-    print("You Lose") 
+    print("You Lose")     
 elif computer_choice > player_choice:
-    print("You Lose")        
+    print("You Lose")  
 elif player_choice > computer_choice:
     print("You Win!")
-elif computer_choice == player_choice :
-    print("It is draw!")    
+elif computer_choice == player_choice:
+    print("It is draw")
+
+   
 
 
 
-
-
-
-
+ 
 
  
