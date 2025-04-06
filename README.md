@@ -9,3 +9,13 @@ I learned about conditional statements and i applied by building a treasure isla
 
 ## Day 4
 I learned about modules and randomization functions and i also dived more into everything i have learnt in the previous days so far and i implemented it by building a Rock Paper Scissors Game
+
+## Day 5
+
+## Day 6
+
+## Day 7
+
+## Day 8
+
+## Day 9

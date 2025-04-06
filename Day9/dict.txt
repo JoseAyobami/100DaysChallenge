@@ -1,0 +1,56 @@
+Day9 - Dictionary
+
+Today, I learned about dictionary 
+
+**What is Dictionary**:
+Dictionary in Python finctions similarly to dictionary in real life. It is a data structure that allows the key value pairs of data together.
+
+For example:
+```
+colors = {
+    "apple": "green",
+    "orange": "yellow",
+    "coconut": "white"
+}
+```
+
+OR
+
+```
+student = {
+    "name": "Jose",
+    "age": 26,
+    "dream_job": "Backend developer",
+    "nationality": "Nigeria"
+}
+```
+
+**And to create an empty dictionary**:
+```
+student = {}
+print(type(student))
+```
+**To add data to an empty dictionary**:
+```
+student = {}
+student["name"] = "Ayobami"
+print(student)
+```
+
+
+**To assign new value to a dictionary**:
+```
+student["name"] = "Landon"
+print(student)
+```
+
+**List as the value pair**:
+```
+travel_log = {
+    "France": ["Paris", "Lillie", "Dijon"],
+    "Germany": ["Berlin", "Valencia"]
+}
+
+
+print(travel_log["France"]) # output ["Paris", "Lillie", "Dijon"]
+```

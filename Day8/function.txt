@@ -1,6 +1,6 @@
-Day 8 - Functions with Inputs, Parameters, and Return Values
+Day8 - Functions with Inputs, Parameters, and Return Values
 
-Today, I learned about functions in programming and how they can take inputs, use parameters, and return values. Here's a summary of what I learned:
+Today, I learned about functions in programming and how they can take inputs, use parameters, and return values. Here is a summary of what I learned:
 
 1. **Functions with Inputs and Parameters**:
     Functions can take inputs, which are passed as arguments when the function is called. These inputs are defined as parameters in the function definition.
@@ -34,4 +34,4 @@ Today, I learned about functions in programming and how they can take inputs, us
     print(f"The area is {area}")
     ```
 
-Functions make code reusable, modular, and easier to understand. I'm excited to practice more and use functions in my projects!
+Functions make code reusable, modular, and easier to understand. I am excited to practice more and use functions in my projects!
